@@ -1,0 +1,29 @@
+nav {
+  height: 50px;
+  list-style-type: none;
+  background-color: #4e4e4e;
+  text-align: right;
+}
+
+nav .disabled-link:hover {
+  cursor: not-allowed;
+}
+
+nav .logo {
+  float: left;
+  margin-left: 96px;
+  font-weight: 700;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+  margin-left: 30px;
+}
+
+nav a:last-child {
+  margin-right: 96px;
+}

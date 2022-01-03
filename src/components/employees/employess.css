@@ -1,0 +1,48 @@
+#employees-content {
+  padding: 40px 96px 40px 96px;
+  background: #f1f1f1;
+}
+
+#employees-content h1 {
+  color: #152d41;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.employee {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  column-gap: 50px;
+}
+
+.employee:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.employee:nth-of-type(even) .employee-description * {
+  text-align: right;
+}
+
+.employee img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.employee .employee-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.employee h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  flex-grow: 0;
+}
+
+.employee p {
+  font-size: 1.8rem;
+  padding-top: 12px;
+  flex-grow: 0;
+}

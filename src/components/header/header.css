@@ -1,0 +1,55 @@
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../img/mountain-landscape.jpg");
+  background-size: cover;
+}
+
+header .bg-alpha {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+header h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+}
+
+header .slogan {
+  position: absolute;
+  width: 50%;
+  padding-left: 96px;
+  z-index: 100;
+}
+
+header .slogan .btn {
+  position: absolute;
+  padding: 5px 55px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  border: 3px solid #ffffff;
+  transition-property: background-color color;
+  transition-duration: 1s;
+  z-index: 100;
+}
+
+header .slogan a:hover {
+  background-color: white;
+  color: black;
+}
