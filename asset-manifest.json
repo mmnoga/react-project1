@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-project1/static/css/main.6c27af7f.css",
+    "main.js": "/react-project1/static/js/main.3a8b9d29.js",
+    "static/media/mountain-landscape.jpg": "/react-project1/static/media/mountain-landscape.a4fc4b25fd56d90d480a.jpg",
+    "static/media/emp1.jpg": "/react-project1/static/media/emp1.a53f473a7f6eb1500559.jpg",
+    "static/media/emp2.jpg": "/react-project1/static/media/emp2.edfa341a262be2a1f37b.jpg",
+    "index.html": "/react-project1/index.html",
+    "main.6c27af7f.css.map": "/react-project1/static/css/main.6c27af7f.css.map",
+    "main.3a8b9d29.js.map": "/react-project1/static/js/main.3a8b9d29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c27af7f.css",
+    "static/js/main.3a8b9d29.js"
+  ]
+}
